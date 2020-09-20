@@ -1,5 +1,4 @@
 import React from 'react'
-import NosotrosImg from '../img/nosotros.png'
 
 const Nosotros = () => {
 
@@ -24,7 +23,7 @@ const Nosotros = () => {
         </div>
 
         <div className="der">
-            <img id="nosotrosi" src={NosotrosImg}></img>
+            <img id="nosotrosi" src="./assets/nosotros.png"></img>
         </div>
      </div>
      </div>

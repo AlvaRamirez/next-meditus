@@ -1,5 +1,4 @@
 import React from 'react'
-import Contactoi from '../img/contactoimg.jpg'
 
 const Contacto = () => {
 
@@ -34,7 +33,7 @@ const Contacto = () => {
   
 
    <div className="conder">
-       <img id="contactoi" src={Contactoi}></img>
+       <img id="contactoi" src="./assets/logocontactoimg.jpg"></img>
    </div>
      </div>
      </div>

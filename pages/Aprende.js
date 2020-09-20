@@ -1,6 +1,5 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Appro from '../components/img/aprendeimg.jpg'
 
 const Aprende = () => {
 
@@ -44,7 +43,7 @@ const Aprende = () => {
                      el cual incluye versiones de Lorem Ipsum.</p>
         
 
-                     <img className="imgpa" src={Appro}></img>
+                     <img className="imgpa" src="./assets/aprendeimg.jpg"></img>
 
                      <p className="parra">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
                     Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 

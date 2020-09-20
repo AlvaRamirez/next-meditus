@@ -1,9 +1,5 @@
 import React from 'react'
-//import { BrowserRouter as Router, Switch, Route, NavLink } from 'react-router-dom'
-//import {withRouter} from 'react-router'
-import Link from 'netx/link'
-import Experimentaimg from '../img/Grupo 103.png'
-import Aprendeimg from '../img/Grupo 104.png'
+import { defautl as NextLink } from 'next/link'
 
 
 
@@ -18,18 +14,18 @@ function Actividades()  {
 
                     <div id="contnoo">
                     <div id="izq">
-                        <Link href="/experimenta">
+                        <NextLink >
                     
-                            <img className="hvr-float" id="imgder" src={Experimentaimg}></img>
+                            <a href="/experimenta"><img className="hvr-float" id="imgder" src="./assets/Grupo 104.png"></img></a>
                            
-                        </Link>
+                        </NextLink>
                         </div>
                         <div id="der">
-                        <Link href="/aprende">
+                        <NextLink >
                         
-                            <img className="hvr-float"  id="imgiz" src={Aprendeimg}></img>
+                          <a href="/aprende"><img className="hvr-float"  id="imgiz" src="./assets/Grupo 103.png"></img></a>  
                             
-                        </Link>
+                        </NextLink>
                         </div>
 
                     </div>
@@ -41,7 +37,5 @@ function Actividades()  {
 
     )
 }
-
-//export default withRouter (Actividades)
 
 export default Actividades

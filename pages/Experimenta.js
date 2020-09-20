@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Expro from '../components/img/experimentaprueba.png'
+
 const Experimenta = () => {
 
     return (
@@ -42,7 +42,7 @@ const Experimenta = () => {
             las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
              el cual incluye versiones de Lorem Ipsum.</p>
 
-             <img className="imgpa" src={Expro}></img>
+             <img className="imgpa" src="./assets/experimentaprueba.png"></img>
 
              <p className="parra">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. 
             Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, 
