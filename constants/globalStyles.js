@@ -4,8 +4,6 @@ const GlobalStyle = createGlobalStyle`
 
 *{
   padding: 0;
-  margin:0;
-  box-sizing: border-box;
 
 }
 
@@ -749,7 +747,7 @@ h2{
 
 .slick-slide .slick-active .slick-current{
   outline: none;
-    width: 100%!important;
+    
 }
 
 .slick-slider :focus{
@@ -853,12 +851,12 @@ iframe{
 
 .slick-track{
   width: 100%;
-  position: absolute!important;
+  
   margin: 30px 0px 0px 0px;
   background-size: auto !important;
   -webkit-background-size: auto !important;
   transform: translate3d(0px, 0px, 0px)!important;
-    display: flex!important;
+ 
     transition: -webkit-transform 1000ms ease 0s!important;
     opacity: 1!important;
 
