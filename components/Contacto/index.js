@@ -33,7 +33,7 @@ const Contacto = () => {
   
 
    <div className="conder">
-       <img id="contactoi" src="./assets/logocontactoimg.jpg"></img>
+       <img id="contactoi" src="./assets/contactoimg.jpg"></img>
    </div>
      </div>
      </div>

@@ -12,14 +12,14 @@ function Actividades()  {
 
                     <div id="contnoo">
                     <div id="izq">
-                        <NextLink href="/aprende">
+                        <NextLink href="/Aprende">
                     
                             <a ><img className="hvr-float" id="imgder" src="./assets/Grupo 104.png"></img></a>
                            
                         </NextLink>
                         </div>
                         <div id="der">
-                        <NextLink href="/experimenta" >
+                        <NextLink href="/Experimenta" >
                         
                           <a ><img className="hvr-float"  id="imgiz" src="./assets/Grupo 103.png"></img></a>  
                             
