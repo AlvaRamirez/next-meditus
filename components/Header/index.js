@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import * as Scroll from 'react-scroll'
-import { defautl as NextLink } from 'next/link'
+//import * as Scroll from 'react-scroll'
+import { default as NextLink } from 'next/link'
 
 const Header = () => {
-
   return (
     <header className="App-header">
-      <NextLink id="meditu">
-       <a  href="/"><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
+      <NextLink id="meditu"  href="/">
+       <a ><img className="hvr-grow" id="logo" src="./assets/logo.png"></img> </a>
 
       </NextLink>
 

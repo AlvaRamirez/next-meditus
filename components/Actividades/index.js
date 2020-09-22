@@ -1,7 +1,5 @@
 import React from 'react'
-import { defautl as NextLink } from 'next/link'
-
-
+import { default as NextLink } from 'next/link'
 
 function Actividades()  {
 
@@ -14,16 +12,16 @@ function Actividades()  {
 
                     <div id="contnoo">
                     <div id="izq">
-                        <NextLink >
+                        <NextLink href="/aprende">
                     
-                            <a href="/experimenta"><img className="hvr-float" id="imgder" src="./assets/Grupo 104.png"></img></a>
+                            <a ><img className="hvr-float" id="imgder" src="./assets/Grupo 104.png"></img></a>
                            
                         </NextLink>
                         </div>
                         <div id="der">
-                        <NextLink >
+                        <NextLink href="/experimenta" >
                         
-                          <a href="/aprende"><img className="hvr-float"  id="imgiz" src="./assets/Grupo 103.png"></img></a>  
+                          <a ><img className="hvr-float"  id="imgiz" src="./assets/Grupo 103.png"></img></a>  
                             
                         </NextLink>
                         </div>
