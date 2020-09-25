@@ -16,8 +16,9 @@ const Home = () => {
      
       
          <div className="fondo">
+            
           <Inicio />
-          <Arriba />
+          <Arriba /> 
         <Actividades/>
         <Videos/>
     

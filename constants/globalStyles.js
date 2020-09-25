@@ -7,6 +7,7 @@ const GlobalStyle = createGlobalStyle`
 
 }
 
+
 body{
   margin: 0 auto;
   padding: 0%;
@@ -740,9 +741,7 @@ h2{
   text-align: center;
   border:none;
   outline: none;
-  width: 100% !important;
   margin: 0 auto;
-  z-index: -10;
 }
 
 .slick-slide .slick-active .slick-current{
@@ -850,12 +849,13 @@ iframe{
 
 
 .slick-track{
-  width: 100%;
+  width: 100% !important;
   
   margin: 30px 0px 0px 0px;
   background-size: auto !important;
   -webkit-background-size: auto !important;
   transform: translate3d(0px, 0px, 0px)!important;
+ display:flex !important;
  
     transition: -webkit-transform 1000ms ease 0s!important;
     opacity: 1!important;

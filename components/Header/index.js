@@ -2,8 +2,12 @@ import React from 'react'
 import { Link } from 'react-scroll'
 //import * as Scroll from 'react-scroll'
 import { default as NextLink } from 'next/link'
+import { useFetchUser } from '../../lib/user'
 
 const Header = () => {
+
+  const { user, loading } = useFetchUser();
+
   return (
     <header className="App-header">
       <NextLink id="meditu"  href="/">
@@ -64,7 +68,17 @@ const Header = () => {
       </ul>
 
       <div className="ml">  <a mp-mode="dftl" href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=449368404-a0ad8847-74f7-4c37-b974-ef685f8671a9" name="MP-payButton"> <img id="mercado" src="./assets/mercadopago.png"></img> </a> </div>
-
+      
+      {!loading && user ? (
+          <a href="/api/logout" className="profileLink">
+            Logout
+          </a>
+        ) : (
+          <a href="/api/login" className="profileLink">
+            Login
+          </a>
+          
+        )}
     </header>
   )
 }
