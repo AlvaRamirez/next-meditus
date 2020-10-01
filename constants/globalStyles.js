@@ -16,6 +16,8 @@ body{
 
 a{
   cursor: pointer !important;
+  text-decoration:none !important;
+  margin: 0 auto !important;
 }
 
 #fondocompleto {
@@ -104,7 +106,7 @@ a{
  
  }
  .cont {
-  display: flex;
+  display: block;
   width: 100%;
   padding-top: 15em;
   padding-bottom: 15em;
@@ -113,6 +115,10 @@ a{
   display: flex;
   width: 100%;
 
+}
+
+.divcont{
+  display:flex;
 }
 
 .contparra{
@@ -187,9 +193,10 @@ a{
 }
 
 #logo {
-  width: 17%;
-  margin-left: 5em;
-  float: left;
+  
+  width:16%;
+  margin:0 auto;
+
 }
 
 textarea{
@@ -206,8 +213,6 @@ textarea{
 
 .texto {
   font-size: 14px;
-  margin-left: 26.4em;
-  width: 44%;
 }
 input{
   padding: 8px;
@@ -276,10 +281,11 @@ form {
 }
 
 .seccion {
-  margin-left: 16em;
   color: #424242;
-  font-family: Volkhov;
-  font-size: 23px;
+    font-family: Volkhov;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0.4;
 }
 
 .sub2 {
@@ -485,7 +491,6 @@ button{
 
 #contactoi {
   width: 40%;
-  margin-top: 5.5em;
   border-radius: 1.5em;
   margin-left: 7em;
 }
@@ -704,6 +709,7 @@ animation:         ca3_fade_move_down 2s ease-in-out infinite;
     float: right;
     margin-right: 5em;
     transition: 0.6s;
+    display:none;
 }
 
 #mercado:hover{

@@ -5,8 +5,9 @@ const Nosotros = () => {
     return (
         <div id="nosotros">
         <div className="cont">
+        <h1  className="seccion">Nosotros</h1>
+        <div className="divcont">
             <div  className="iz">
-     <h1  className="seccion">Nosotros</h1>
 
      <p className="texto">Nuestro objetivo es generar un entorno en común para todas aquellas personas interesadas 
         en la práctica de la meditación, seccionándola en distintas dinámicas y abarcando variables de: 
@@ -25,6 +26,7 @@ const Nosotros = () => {
         <div className="der">
             <img id="nosotrosi" src="./assets/nosotros.png"></img>
         </div>
+     </div>
      </div>
      </div>
 

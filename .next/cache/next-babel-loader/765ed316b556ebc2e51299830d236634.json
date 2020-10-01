@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as firebase } from './firebase.js';","map":{"version":3,"sources":["C:/Users/Usuario/Documents/GitHub/next-meditus/next-meditus/lib/index.js"],"names":["default","firebase"],"mappings":"AAAA,SAASA,OAAO,IAAIC,QAApB,QAAoC,eAApC","sourcesContent":["export { default as firebase } from './firebase.js';\r\n"]},"metadata":{},"sourceType":"module"}

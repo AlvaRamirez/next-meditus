@@ -6,10 +6,9 @@ const Contacto = () => {
     
         <div id="contacto"> 
         <div className="cont">
-        
+        <h1  className="seccion">Contacto</h1>
+        <div className="divcont">
     <div id="iz">
-    <h1  className="seccion">Contacto</h1>
-    <p className="texto">Hablemos:</p>
 
     <form>
        <div id="noap">
@@ -34,6 +33,7 @@ const Contacto = () => {
 
    <div className="conder">
        <img id="contactoi" src="./assets/contactoimg.jpg"></img>
+   </div>
    </div>
      </div>
      </div>
