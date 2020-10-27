@@ -1,5 +1,5 @@
 //import { Layout, Question as QuestionContainer } from "containers";
-import auth0 from "lib/auth0";
+import auth0 from "../../lib/auth0";
 
 export default function Questions({ user, id }) {
     return (
