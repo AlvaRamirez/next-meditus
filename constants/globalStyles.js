@@ -33,7 +33,7 @@ a{
   text-decoration: none;
   list-style: none;
   align-content: space-around;
-  font-size: 11px;
+  font-size: 12px;
   margin: 0 auto;
   font-weight: 600;
   padding: 0;
@@ -91,21 +91,21 @@ a{
 }
 
 .Li-header > .active {
- color: rgb(80, 248, 234);
+color: rgb(80, 248, 234);
 
 }
 
- .Li-header a:focus {
+.Li-header a:focus {
   transition: 0.7s all;
   opacity: 0.8;
- 
- }
- .Li-header a:active {
+
+}
+.Li-header a:active {
   transition: 0.7s all;
   opacity: 0.8;
- 
- }
- .cont {
+
+}
+.cont {
   display: block;
   width: 100%;
   padding-top: 15em;
@@ -120,9 +120,36 @@ a{
 .divcont{
   display:flex;
 }
+#botondona{
+  margin: 20px !important;
+    padding: 10px 10px 10px 10px!important;
+    border-radius: 10px;
+    background: #a472c7;
+    color: white;
+    font-weight: bolder;
+    font-size: 15.4px;
+    margin-top: 52px !important;
+}
 
+#contdona{
+  text-align: center;
+    margin-bottom: 6em;
+    margin-top: 4.5em;
+    border-top: 2px solid #b7b7b7;
+    padding: 2em 1em 3em 1em;
+    border-bottom: 2px solid #b7b7b7;
+}
+  
+
+#donar{
+  text-align: center;
+    font-size: 14px;
+    color: #424242;
+    font-style: oblique;
+    padding-bottom: 1.5em;
+}
 .contparra{
-  margin-bottom: 20%;
+  margin-bottom: 5%;
 }
 
 .Ul-footer {
@@ -194,7 +221,7 @@ a{
 
 #logo {
   
-  width:16%;
+  width:19%;
   margin:0 auto;
 
 }
@@ -212,7 +239,7 @@ textarea{
 }
 
 .texto {
-  font-size: 14px;
+  font-size: 16px;
 }
 input{
   padding: 8px;
@@ -253,7 +280,6 @@ form {
   align-items: center;
   justify-content: center;
   outline: none;
-  margin-left: 7%;
 }
 
 .parra {
@@ -283,7 +309,7 @@ form {
 .seccion {
   color: #424242;
     font-family: Volkhov;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     opacity: 0.4;
 }
@@ -399,9 +425,9 @@ header{height: 30px;}
 
 .textoini {
   position: absolute;
-  margin-top: 0 auto;
-  margin-top: 24em;
-  margin-left: 12em;
+    margin-top: 0 auto;
+    margin-top: 22em;
+    margin-left: 12em;
 }
 
 .titulo {
@@ -465,7 +491,9 @@ header span.animated {
 }
 
 .iz {
-  width: 70%;
+     width: 50%;
+    /* padding-left: 25em; */
+    margin: 0 auto;
 }
 
 #iz {
@@ -606,7 +634,7 @@ background-repeat: no-repeat;
 }
 
 .ca3-scroll-down-link {
-  height: 22px;
+  height: 30px;
   width: 40px;
   cursor: auto !important;
   margin: 0 AUTO;
@@ -704,12 +732,14 @@ animation:         ca3_fade_move_down 2s ease-in-out infinite;
 }
 
 
-#mercado {
-  width: 6.6%;
-    float: right;
-    margin-right: 5em;
+
+  #mercado {
+    width: 8%;
+
     transition: 0.6s;
-    display:none;
+  
+    text-align: center;
+
 }
 
 #mercado:hover{
@@ -763,14 +793,14 @@ h2{
 #arriba{
 
   float: right;
-  transition: 1.5s;
-  cursor: pointer;
-  border: none;
-  z-index: 1000;
-  opacity: 0;
-  visibility: hidden;
-  margin-top: 10%;
-
+    -webkit-transition: 1.5s;
+    transition: 1.5s;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+    z-index: -1;
+    opacity: 10;
+    visibility: visible;
 
 }
 
@@ -789,13 +819,17 @@ h2{
 
 #contarri{
   float: right;
-  width: 100%;
-  position: fixed;
-  z-index: 0;
-  top: 840px;
-  display: block;
-  transition: 0.8s;
-  left: -100px;
+    width: 100%;
+    position: fixed;
+    /* z-index: 0; */
+    top: 730px;
+    display: block;
+    /* z-index: -1; */
+    z-index: 1000;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+    left: -100px;
+
 }
 
 
@@ -855,14 +889,14 @@ iframe{
 
 
 .slick-track{
-  width: 100% !important;
+  z-index:1000 !important;
   
-  margin: 30px 0px 0px 0px;
+  margin: 50px 0px 0px 0px;
   background-size: auto !important;
   -webkit-background-size: auto !important;
   transform: translate3d(0px, 0px, 0px)!important;
- display:flex !important;
- 
+display:flex !important;
+
     transition: -webkit-transform 1000ms ease 0s!important;
     opacity: 1!important;
 

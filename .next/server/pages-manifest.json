@@ -3,7 +3,5 @@
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
   "/": "pages/index.js",
-  "/api/questions/add": "pages/api/questions/add.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/api/me": "pages/api/me.js"
+  "/Experimenta": "pages/Experimenta.js"
 }

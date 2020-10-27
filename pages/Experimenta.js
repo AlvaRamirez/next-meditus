@@ -1,7 +1,27 @@
 import React from 'react'
 import Footer from '../components/Footer'
-
+import Aporte from '../components/Aporte'
 const Experimenta = () => {
+
+// const [name] = useState([]);
+//     const getData = async () => {
+//             firebaseDB.ref('meditusData').once('value', (snapshot) => {
+//                 const meditusArr = [];
+//                 snapshot.forEach((childSnapshot) => {
+//                   meditusArr.push({
+//                     id: childSnapshot.key,
+//                     ...childSnapshot.val()
+//                 })
+//                 })
+//                 // escuelasArr.reverse()
+//                 console.log('getData',meditusArr);
+//                 setEscuelas(meditusArr);
+//             })
+//         };
+//         useEffect(() => {
+//         getData();
+//         }, []);
+
 
     return (
         <div className="fondo">
@@ -71,7 +91,10 @@ const Experimenta = () => {
             las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker,
              el cual incluye versiones de Lorem Ipsum.</p>
              </div>
+             
+           <Aporte/>
         </div>
+      
         </div>
           <Footer />
         </div>

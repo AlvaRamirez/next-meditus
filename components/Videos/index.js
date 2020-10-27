@@ -31,7 +31,7 @@ const Videos = () => {
           <div  className="contSlider">
           <iframe src="https://www.youtube.com/embed/go8ibd-hGiw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" default></iframe>
           </div>
-          <div  className="contSlider">
+          {/* <div  className="contSlider">
           <iframe src="https://www.youtube.com/embed/Sdi60CAM8Ac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" default></iframe>
           </div>
           <div  className="contSlider">
@@ -45,7 +45,7 @@ const Videos = () => {
           </div>
           <div  className="contSlider">
           <iframe src="https://www.youtube.com/embed/Y6oKsfSyXIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" default></iframe>
-          </div>
+          </div> */}
         
         </Slider>
  

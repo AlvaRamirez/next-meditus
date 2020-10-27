@@ -23,9 +23,6 @@ const Nosotros = () => {
         <p className="texto"> <strong>Calma, presencia, <span>Méditus.</span></strong></p>
         </div>
 
-        <div className="der">
-            <img id="nosotrosi" src="./assets/nosotros.png"></img>
-        </div>
      </div>
      </div>
      </div>

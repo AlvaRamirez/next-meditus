@@ -7,8 +7,8 @@ const Contacto = () => {
         <div id="contacto"> 
         <div className="cont">
         <h1  className="seccion">Contacto</h1>
-        <div className="divcont">
-    <div id="iz">
+        <div >
+  
 
     <form>
        <div id="noap">
@@ -27,13 +27,6 @@ const Contacto = () => {
 <button id="enviar"className="btn hvr-back-pulse">Enviar</button>
 </form>
 
-   </div>
-   
-  
-
-   <div className="conder">
-       <img id="contactoi" src="./assets/contactoimg.jpg"></img>
-   </div>
    </div>
      </div>
      </div>
