@@ -14,7 +14,7 @@
     "babel-plugin-styled-components": "^1.11.1",
     "firebase": "^7.21.1",
     "formik": "^2.1.6",
-    "next": "9.5.3",
+    "next": "^10.0.0",
     "next-absolute-url": "^1.2.2",
     "prop-type": "0.0.1",
     "react": "16.13.1",
