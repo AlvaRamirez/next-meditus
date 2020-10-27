@@ -130,7 +130,6 @@ color: rgb(80, 248, 234);
     font-size: 15.4px;
     margin-top: 52px !important;
 }
-
 #contdona{
   text-align: center;
     margin-bottom: 6em;
